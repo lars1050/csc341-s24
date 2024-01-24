@@ -124,6 +124,8 @@ In the EventHandler in the `LoginWindow.java` file, manage the login attempt. Th
 
 Write the code to validate the credentials. If the credentials are valid, say hello to the user using their name (which you can find in the associated Student record that is stored in the Database). You can change the message in the login window or you can simplify this process and print in the terminal (by using System.out.println()).
 
+**Implement the method Database.getStudent:** find the student associated with the username passed to the method.
+
 If the credentials are not valid, then use the message provided.
 
 - https://docs.oracle.com/javase/8/docs/api/java/awt/event/ActionListener.html
