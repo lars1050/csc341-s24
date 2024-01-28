@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Database {
 
-	Hasher hasher = null;
+	private Hasher hasher = null;
 
 	private ArrayList<Pair> users = new ArrayList<>();
 	private ArrayList<Student> students = new ArrayList<>();

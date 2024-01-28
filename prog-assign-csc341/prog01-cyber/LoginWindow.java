@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  
  public class LoginWindow extends JFrame {
  
- 	Database db;
+ 	private Database db;
 
     // Window Size
     private final int loginWidth = 500;

@@ -3,9 +3,9 @@
 */
 public class Pair {
 	/** The first value of the pair */
-	String value1;
+	private String value1;
 	/** The second value of the pair */
-	String value2;
+	private String value2;
 
 	/** Constructor with values to add.
 	 * 
