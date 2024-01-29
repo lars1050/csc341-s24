@@ -23,13 +23,13 @@ public class Circle extends JPanel {
    	private int deltaX = 1;
    	private int deltaY = 1;
 
-    /** Circels have many random components */
+    /** Circels have random direction */
     private Random random = new Random();
 
 
-    /** Default constructor */
     public Circle(String c, Integer size) {
     
+    	// set according user specifications
     	radius = size;
     	if (c.equals("red")) {
     		color = new Color(255,0,0);
@@ -38,45 +38,25 @@ public class Circle extends JPanel {
     	} else {
     		color = new Color(0,0,255);
     	}
-
+		// set the bounding box of the circle
         this.setSize(radius, radius);
 
         // Make the box/panel on which the circle is drawn transparent
         this.setBackground(new Color(0.0f, 0.0f, 0.0f, 0.0f));
 
-        // Randomly assign values
-        //randomXY();
-        randomDirection();
-        //randomColor();
-    }
-
-    /** Randomly assign its location based on the fixed ranges. */
-    public void randomXY() {
-        // place at random location
-        //xy.x = random.nextInt(xMAXRANGE - xMINRANGE) + xMINRANGE;
-        //xy.y = random.nextInt(yMAXRANGE - yMINRANGE) + yMINRANGE;
-    }
-
-    /** Randomly point it in a direction with random "speed" */
-    public void randomDirection() {
-        // set in a random direction
+		// it moves in a random direction
         deltaX = random.nextInt(5) - 2;
         deltaY = 2;
     }
 
-    /** Randomly assign the RGB components */
-    public void randomColor() {
-        // color randomly
-        color = new Color(random.nextInt(255), random.nextInt(255), random.nextInt(255));
-    }
-
-    /** Move the robot the "delta" for 1 timestep */
+    /** Move the robot in each x-y direction by step size (staying in boundary) */
     public void step() {
-    	//System.out.println("moving");
    
+   		// Move it
     	posX += deltaX;
     	posY += deltaY;
     	
+    	// check if it is up against any of the 4 "walls"
         if (posX<=50) {
             posX = 50;
             deltaX = -deltaX;
@@ -94,7 +74,8 @@ public class Circle extends JPanel {
             deltaY = -deltaY;
         }
     }
-
+    
+	// getters
     public int getX() {
         return posX;
     }
