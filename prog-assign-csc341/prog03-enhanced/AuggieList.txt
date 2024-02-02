@@ -1,0 +1,81 @@
+
+// ____________________________________________________
+//                   ADD METHODS
+// ____________________________________________________
+
+public void addAll(Auggie[] array) throws IllegalOperationException {
+
+	// Add array elements to the List (but only if they all fit)
+
+} 
+
+// ____________________________________________________
+//                   SEARCH METHODS
+// ____________________________________________________
+
+public int findUser(String uname) {
+
+	// Determine the location (i.e. the index) of the specified auggie
+	// as long as the index is valid
+
+} // end findUser()
+
+public void replace(Auggie a1, Auggie a2) throws IllegalOperationException {
+	
+	// find a1 in the List and replace with a2
+	// as long as a1 is in the list
+	
+} // end replace()
+
+
+
+// ____________________________________________________
+//                   REMOVE METHODS
+// ____________________________________________________
+
+public Auggie remove(int index) throws ArrayIndexException {
+
+	// if the index is valid, remove the auggie and return it
+	// if not valid, throw Exception
+
+}
+
+public void remove(Auggie auggie) throws Exception {
+
+	// remove and return the auggie from the list
+	// as long as it is in the list.
+	
+	// Use your find method and your other remove method!
+	//    no need to write the same code twice!
+
+}
+
+public void clearAll() {
+
+	// "remove" all elements from the list
+	// no need to iterate -- just change the count!!
+	// if you are really worried about elements left in the array,
+	// you can always declare a new array and start fresh.
+}
+
+// ____________________________________________________
+//                   CONVERT METHODS
+// ____________________________________________________
+
+public int toArray(Auggie[] toFill) throws IllegalOperationException {
+
+	// if all List elements fit in toFill, copy them into the array.
+	// if they do not all fit, throw an Exception and return.
+	// return the number of elements copied into the array
+
+}
+
+public Auggie[] sublist(int start, int end) throws ArrayIndexException {
+
+	// if either index is invalid, throw exception
+	// create a new Auggie array the size of the sublist.
+	// Copy elements from index start to end (inclusive) into the array.
+
+}
+
+
