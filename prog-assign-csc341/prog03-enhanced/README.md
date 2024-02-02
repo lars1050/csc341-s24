@@ -1,10 +1,10 @@
-### Programming Assignment 02 : Building a LIST Abstract Data Type
+### Programming Assignment 03 : Enhancing a LIST Abstract Data Type
 #### Due Thursday, February 8 end-of-day
 #### Submit a single zipped file to Moodle
 
-In this programming assignment, you will continue to create a LIST Abstract Data Type (ADT) with the same functionality that is provided by the Java ArrayList<>. This will give you insight into how structures for data collections are implemented and how the choice of implementation impacts the efficiency with respect to both time and space.
+In this programming assignment, you will continue to implement a LIST Abstract Data Type (ADT) with the same functionality that is provided by the Java ArrayList<>. This will give you insight into how structures for data collections are implemented and how the choice of implementation impacts the efficiency with respect to both time and space.
 
-In addition to learning about the List ADT, you will be working on UNIT TESTING, which is the industry standard. Typically, one uses a formal framework that is built for the language being used (e.g. JUnit). We will use a "homegrown" version for transparency and ease of use.
+In addition to learning about the List ADT, you will be working on UNIT TESTING, which is the industry standard method for formally testing code. Typically, one uses a formal framework that is built for the language being used (e.g. JUnit). We will are using a "homegrown" version for transparency and ease of use.
 
 One distinction between ArrayList<> and what you are developing is the use of _Generics_, which is indicated by the "<>" symbols. This allows you as the user to store any type of object. In our implementation (for now), we will only be storing Auggie objects.
 
@@ -14,7 +14,7 @@ Learning Outcomes:
 - Understand the practice of _Test-Driven Development_.
 - Use Exceptions to manage erroneous input or operations.
 - Practiced in code documentation using Javadocs.
-- Practiced in code testing to verify correctness.
+- Practiced in unit testing to verify correctness.
 
 <hr>
 
@@ -44,12 +44,11 @@ It is important to have a shared understanding of the list qualities and how the
 
 AS you are coding, add javadocs comments where appropriate. Documentation for javadocs can be found here:
     - [https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html]
-    - [https://www.tutorialspoint.com/java/java_documentation.htm]
 
-    _Where Appropriate_ means that ...
+    "Where Appropriate" means that ...
     - all classes have a javadoc comment above its definition
     - all methods within a class are documented and include @param, @return, etc. as appropriate (the one exception is setters and getters, which are usually self-explanatory thus do not need documentation)
-    - most class members/attributes/fields (pick your favorite vocabulary term) are documented. Most, if not all of these, have been done for you.
+    - most class members/attributes/fields (pick your favorite vocabulary term) are documented.
 
 When complete, generate javadocs and inspect your work. To generate javadocs from the command line, create a `docs` folder inside the prog02-list folder. Compile javadoc comments from within that folder. This will generate a collection of web pages. At the command prompt, it looks like this:
   ```
@@ -65,7 +64,7 @@ When complete, generate javadocs and inspect your work. To generate javadocs fro
 
 Testing is an essentail part of coding. In this assignment, you will use the provided unit tests to ensure your code is working properly.
 
-To run the tests, compile your code and run the TestListEnhanced.java file. **If you see any output on the screen that have indicates an expected value versus an actual value then your code is wrong** (or my tests are wrong, but I did check them, so I think they are good, but you can always ask to be sure!).
+To run the tests, compile your code and run the `TestListEnhanced.java` file (notice there are 3 test files - TestList for prog02, TestListEnhanced for prog03, and TestReplace for you to write as part of the assignment). **If you see any output on the screen that displays an expected value versus an actual value then your code is wrong** (or my tests are wrong, but I did check them, so I think they are good, but you can always ask to be sure!).
 
 ```
 > javac *.java
@@ -80,7 +79,7 @@ To run the tests, compile your code and run the TestListEnhanced.java file. **If
 
 ### Implementation
 
-In this assignment, you will continue your development of the ADT List of Auggie objects by completing the implementation of the class _AuggieList__. 
+In this assignment, you will continue your development of the ADT List of Auggie objects by implementating the methods defined in enhancements.txt (copying them into AuggieList.java) of the class _AuggieList_. 
 
 Start by 
 - pull the repository
@@ -88,7 +87,7 @@ Start by
 - copy your completed AuggieList.java from prog02 into prog03.
 - copy the methods from enhancements.txt into the AuggieList 
 
->Note: keep your code organized! Place the new methods in their appropriate section in the code. For example `addAdd()` should be placed after the 2 other add methods.
+>Note: keep your code organized! Place the new methods in their appropriate section in the code. For example `addAll()` should be placed after the 2 other add methods.
 
 #### REMOVE METHODS
 
@@ -140,7 +139,8 @@ Implement the following:
 	- add all elements in the array to the list
 
 <hr>
-### Test 
+
+### Write Tests 
 
 In the file TestReplace.java, complete the code to sufficiently test replace. This means there should be test cases for 
 - replacing the first element, 
