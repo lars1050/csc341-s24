@@ -2,7 +2,7 @@ import java.lang.reflect.*;
 import java.util.Scanner;
 import java.io.*;
 
-public class TestList extends Assert {
+public class TestCircle extends Assert {
 
 	
 	public static void assertEquals(Circle expect, Circle result, String msg) {
