@@ -2,7 +2,7 @@ import java.lang.reflect.*;
 import java.util.Scanner;
 import java.io.*;
 
-public class TestListEnhanced extends Assert {
+public class TestReplace extends Assert {
 
 	public static void assertEquals(Auggie expect, Auggie result, String msg) {
 		boolean match = true;
