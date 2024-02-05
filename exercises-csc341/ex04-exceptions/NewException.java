@@ -11,6 +11,6 @@ public class XXXX extends Exception {
 	*/
 	public XXXX(String msg) {
 		// call the Exception constructor
-		super("XXXX: "+msg);
+		super(msg);
 	}
 }
