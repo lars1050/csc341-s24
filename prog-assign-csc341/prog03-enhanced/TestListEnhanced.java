@@ -54,6 +54,8 @@ public class TestListEnhanced extends Assert {
 			testAddAll();
 		} catch(Exception e) {
 			System.out.println("\n\nAddAll THROWING EXCEPTION.");
+			e.printStackTrace();
+			System.out.println("\n\n");
 		}
 		try {
 			testFindUser();
