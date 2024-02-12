@@ -18,8 +18,19 @@ public boolean equals(Object other)
 public int compareTo(Circle other)
 ```
 
-	In this first version, use the radius to order elements.
+In this first version, use the radius to order elements.
 	
-3. In Main, complete the first set of comparisons, comparing c1 to either  
+3. In Main, complete the first set of comparisons, comparing c1 to c3 and then to c4. Pay attention to the different results. Answer the question on the worksheet.
+
+4. In Main, complete the print statements and comparisons in Main using your compareTo method. Answer the questions on the worksheet.
+
+5. Change the compareTo method to compare the position along the x-axis ordering from minimum to maximum. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
+
+6. Change the compareTo method to compare the position along the y-axis ordering from **maximum** to **minimum**. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
+
+7. Change the compareTo method to compare based on color. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
+
+8. Change the compareTo method to compare the position along the y-axis ordering from **maximum** to **minimum** AND using the x position as a tie-breaker. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
+ 
 
 
