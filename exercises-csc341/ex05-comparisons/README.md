@@ -31,6 +31,15 @@ In this first version, use the radius to order elements.
 7. Change the compareTo method to compare based on color. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
 
 8. Change the compareTo method to compare the position along the y-axis ordering from **maximum** to **minimum** AND using the x position as a tie-breaker. Complete the print statements and comparisons in Main. Answer the question on the worksheet.
+
+### PART II;
+
+1. In Main, define `public static class OrderX implements Comparator<Circle>`.
+2. Create an instance `orderX` of class OrderX.
+3. Define and create an instance of (in the same statement) of `Comparator<Circle> orderY = new Comparator<>() ...;`.
+4. Change the compareTo method in Circle to compare the radius.
+5. Use your new orderX and orderY to make the comparison as you did in Part I.
+
  
 
 
