@@ -28,7 +28,7 @@ Learning Outcomes:
 
 Organizations establish rules about how to style your code. The style rules might discuss whitespace, variable naming conventions, curly brace placement, etc. In this lab (and all labs going forward), your code should be compliant with the Google Java style guide.
 
-https://google.github.io/styleguide/javaguide.html
+<a href ="https://google.github.io/styleguide/javaguide.html" target="_blank">https://google.github.io/styleguide/javaguide.html</a>
 
 In particular, you should:
 
