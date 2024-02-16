@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.*;
 import java.io.*;
 
-public class TestBinSearch extends Assert {
+public class TestBinSearch {
 
 	static Auggie a0 = AuggieFactory.makeAuggie("a00");
 	static Auggie b1 = AuggieFactory.makeAuggie("b01");
