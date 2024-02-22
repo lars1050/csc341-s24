@@ -61,7 +61,7 @@ public class Ordering {
 			System.out.println(a);
 		}	
 		
-		// Sort using the .sort() for ArrayList with orderLast as the argument.
+		// Sort using the .sort() for ArrayList with orderRole as the argument.
 		// TODO
 		
 		System.out.println("\nNow they should be in role, username order");
