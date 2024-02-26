@@ -66,9 +66,9 @@ Start the implementation by duplicating your prog04 folder in your working direc
 
 1. Create the method `int searchRecursive(Auggie auggie)` Locate the auggie using the technique of Binary Search. This method must call a function that uses recursion. Return its location (index) or -1 if it is not present.
 
-Note that you would never normally have 3 versions of a method that have the same behavior! This is for educational purposes only.
+	Note that you would never normally have 3 versions of a method that have the same behavior! This is for educational purposes only.
 
-Note the signature of `searchRecursive` -- the only parameter is auggie. This method is NOT a recursive method -- it _calls_ the recursive method that will have additional parameters.
+	Note the signature of `searchRecursive` -- the only parameter is auggie. This method is NOT a recursive method -- it _calls_ the recursive method that will have additional parameters.
 
 #### Ordering Methods
 
