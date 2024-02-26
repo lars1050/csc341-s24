@@ -58,7 +58,7 @@ A rule of thumb is to have a comment for about every 3-4 lines of code. The comm
 
 ### IMPLEMENTATION
 
-Start the implementation by duplicating your prog04 folder in your working directory. Move the COPY of that folder up 1 level. 
+Start the implementation by duplicating your prog04 folder in your working directory. Rename the COPY of that folder prog05-sort. 
 
 #### Recursive Binary Search Method
 
