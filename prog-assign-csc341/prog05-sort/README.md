@@ -88,7 +88,7 @@ Start the implementation by duplicating your prog04 folder in your working direc
     
 1. Create the method `public Auggie[] toArray(Comparator<Auggie> order)`. Return an array with the values in the List. This array should be ordered (sorted) according to the passed Comparator. You may not use any of the built-in Java sorting algorithms. You choose which sorting algorithm you want to implement.
 
-1. Create the method `public ArrayList<Auggie> query(Role role)`. Return all the students in the list who have the specified major. Note that the return type is an ArrayList, not Auggie[ ]. Return the new ArrayList even if no items were added to the ArrayList.
+1. Create the method `public ArrayList<Auggie> query(Role role)`. Return all the auggies in the list who have the specified role. Note that the return type is an ArrayList, not Auggie[ ]. Return the new ArrayList even if no items were added to the ArrayList.
 
 ### Testing
 
