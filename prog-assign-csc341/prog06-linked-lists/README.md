@@ -14,9 +14,7 @@ Keep your code style-compliant.
 
 Keep your code CLEAN and organized.
 
-```
-Special Constraints: You may not break out of any for loop. If you do not know how many interations there will be, then you should be using a while loop!
-```
+> Special Constraints: You may not break out of any for loop. If you do not know how many interations there will be, then you should be using a while loop!
 
 <hr>
 
