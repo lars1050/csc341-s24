@@ -87,7 +87,6 @@ public class AuggieList {
     *
     * @param index Location within the List (0-based indexing)
     * @param auggie item to be added to the List
-    * @return true if item added, else false.
     * @throws ArrayIndexException if index is out of bounds.
     */
     public void add(Auggie auggie, int index) throws ArrayIndexException {
