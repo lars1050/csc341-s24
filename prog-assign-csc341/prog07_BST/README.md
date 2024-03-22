@@ -1,4 +1,4 @@
-## Programming Assignem 6 - Binary Search Trees
+## Programming Assignem 7 - Binary Search Trees
 
 <hr>
 
